@@ -21,9 +21,6 @@ This project enables **two-way (duplex) communication** between two **Arduino bo
 - **LoRa Library** (can be installed through Arduino IDE Library Manager)
 - **GUI software** (built using Processing or any other framework of your choice)
 
-## Circuit Diagram
-(Include a diagram that shows the connection between the Arduino, LoRa module, and any sensors/relays used in the project.)
-
 ## Setup Instructions
 ### Step 1: Hardware Setup
 1. **Connecting the LoRa Module**:
@@ -39,6 +36,10 @@ This project enables **two-way (duplex) communication** between two **Arduino bo
 1. **LoRa Master**:
    - The Master will send commands to the Node and also receive data from it.
    - Upload the **LoRa Master program** to the Master Arduino.
+
+2. **LoRa Node**:
+   - The Node will send commands to the Master and also receive data from it.
+   - Upload the **LoRa Node program** to the Node Arduino.
 
 ### Step 3: Flash the Code
 1. **Connect each Arduino board** to your computer using USB cables.
